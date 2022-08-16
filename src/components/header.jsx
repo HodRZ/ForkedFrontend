@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export const Header = (props) => {
   return (
     <header id='header'>
@@ -11,12 +13,14 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                <a
-                  href='#features'
-                  className='btn btn-custom btn-lg page-scroll'
-                >
-                  Learn More
-                </a>{' '}
+                <Link to='/city'>
+                  <a
+
+                    className='btn btn-custom btn-lg page-scroll'
+                  >
+
+                    Learn More
+                  </a></Link>{' '}
               </div>
             </div>
           </div>
