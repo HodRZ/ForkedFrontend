@@ -1,21 +1,20 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "YellaJo",
+    "paragraph": "Jordan is a country of hikers and historians, scientists and artists, foodies and yoga-fiends. Whatever your tribe, you'll find a kindred spirit here."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Jordan is a land steeped in history. It has been home to some of Humankind's earliest settlements and villages; harboring hidden relics from the world's great civilizations.As the crossroads of the Middle East, the lands of Jordan and Palestine have served as a strategic nexus; connecting Asia, Africa, and Europe.  Since the dawn of civilization, Jordan's geography has given it an important role as a conduit for trade and communications; connecting the orient with the west. Jordan continues to play a critical role in geopolitical affairs. Pro-Tip: Jordan’s Independence Day is on May 25th.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Float in The Dead Sea.",
+      "Visit Petra.",
+      "Experience The Valley Of The Moon.",
+      "Camp Under the Stars."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Be Adventurous; Go on a jeep safari.",
+      "Stroll in The Footsteps of Famous Actors.",
+      "Historic Treasures of Jordan."
     ]
   },
   "Gallery": [
@@ -67,33 +66,33 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
+      "icon": "fa fa-bed",
+      "name": "Rent a Room",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
+      "icon": "fa fa-globe",
+      "name": "All The World",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
+      "icon": "fa fa-map-marker",
+      "name": "Explore The Area",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "fa fa-language",
+      "icon": "fa fa-suitcase",
       "name": "Consectetur adipiscing",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
+      "name": "Reception",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
+      "icon": "fa fa-car",
+      "name": "Rent a Car",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
@@ -131,33 +130,40 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "https://ca.slack-edge.com/TNGRRLUMA-U03LPQ166EN-f658e4421226-512",
+      "name": "Huthaifa Alzawahreh",
+      "job": "Back-End Developer"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "https://ca.slack-edge.com/TNGRRLUMA-U03L96E9G6T-34ae4dec1141-512",
+      "name": "Malek Hamdan",
+      "job": "Back-End Developer"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "https://ca.slack-edge.com/TNGRRLUMA-U03L96DA9D5-8364b2f1ff3d-512",
+      "name": "Ruba Sultan Albrezat",
+      "job": "Front-End Developer"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "https://ca.slack-edge.com/TNGRRLUMA-U03M2E0V6UR-11949e28a586-512",
+      "name": "Ahmed Al-Awamleh",
+      "job": "Front-End Developer"
+    },
+    {
+      "img": "https://ca.slack-edge.com/TNGRRLUMA-U03MDGVER40-59d28dff618d-512",
+      "name": "Eyad Mansour",
+      "job": "Back-End Developer"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "Amman, Jordan",
+    "phone": "+962-7866985201",
+    "email": "BackLog@company.com",
+    "facebook": "https://www.facebook.com",
+    "twitter": "https://www.twitter.com",
+    "youtube": "https://www.youtube.com",
+    "github": "https://github.com/Backlog-Software",
+    "instagram": "https://www.instagram.com"
   },
   "Features": [
     {
@@ -167,7 +173,7 @@
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
+      "title": "Lorem ipsum", 
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {

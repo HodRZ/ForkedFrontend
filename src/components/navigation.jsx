@@ -1,3 +1,6 @@
+import { Navbar, NavItem } from "react-bootstrap";
+
+import React from "react";
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -16,10 +19,10 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+          YellaJo
           </a>{' '}
         </div>
-
+        
         <div
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
@@ -45,9 +48,10 @@ export const Navigation = (props) => {
                 Gallery
               </a>
             </li>
+           
             <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
+              <a href='/jordan' className='page-scroll'>
+                Jordan Gallery
               </a>
             </li>
             <li>
@@ -60,6 +64,7 @@ export const Navigation = (props) => {
                 Contact
               </a>
             </li>
+
           </ul>
         </div>
       </div>

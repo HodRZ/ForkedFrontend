@@ -141,22 +141,32 @@ export const Contact = (props) => {
                       <i className='fa fa-youtube'></i>
                     </a>
                   </li>
+                  <li>
+                    <a href={props.data ? props.data.github : '/'}>
+                      <i className='fa fa-github'></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.instagram : '/'}>
+                      <i className='fa fa-instagram'></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div id='footer'>
+      {/* <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
+            &copy; 2022{' '}
             <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
+              BackLog
             </a>
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
