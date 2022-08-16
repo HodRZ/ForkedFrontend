@@ -19,7 +19,7 @@ export const Header = (props) => {
                     className='btn btn-custom btn-lg page-scroll'
                   >
 
-                    Learn More
+                    Yalla Exeplore !
                   </a></Link>{' '}
               </div>
             </div>

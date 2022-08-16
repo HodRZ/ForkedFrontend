@@ -8,6 +8,13 @@ import Citycomponents from './oldComponents/LandingPage/LoggedIN/mainComponents/
 import CarRental from './oldComponents/LandingPage/LoggedIN/mainComponents/Services/CarRental'
 import RoomRental from './oldComponents/LandingPage/LoggedIN/mainComponents/Services/RoomRental'
 import TourGuide from './oldComponents/LandingPage/LoggedIN/mainComponents/Services/TourGuide'
+import Blogs from './oldComponents/Blogs'
+import About from './oldComponents/LandingPage/About'
+import UserProfile from './oldComponents/User/UserProfile';
+import BlogPost from './oldComponents/BlogPost';
+import CreateServices from './oldComponents/CreateServices';
+import EditBlog from './oldComponents/User/editBlog';
+import EditService from './oldComponents/User/editService';
 
 import { Auth0Provider } from '@auth0/auth0-react';
 
@@ -22,12 +29,23 @@ root.render(
       >
         <Routes>
           <Route path='/' element={<App />}>
-            <Route path='/city' element={<Citycomponents />}>
-              <Route path='carRental' element={<CarRental />} />
-              <Route path='roomRental' element={<RoomRental />} />
-              <Route path='tourGuide' element={<TourGuide />} />
-            </Route>
+
           </Route>
+          <Route path='/city' element={<Citycomponents />}>
+            <Route path='carRental' element={<CarRental />} />
+            <Route path='roomRental' element={<RoomRental />} />
+            <Route path='tourGuide' element={<TourGuide />} />
+          </Route>
+          <Route path='profile' element={<UserProfile />} />
+          <Route path='profile/blog' element={<BlogPost />} />
+          <Route path='profile/service' element={<CreateServices />} />
+
+          <Route path='about' element={<About />} />
+          <Route path='blog' element={<Blogs />} />
+          <Route path='blog/:id' element={<EditBlog />} />
+          <Route path='service/:id' element={<EditService />} />
+          <Route path='service/:id' element={<EditService />} />
+          <Route path='service/:id' element={<EditService />} />
 
         </Routes >
       </Auth0Provider>
