@@ -102,7 +102,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-map-marker'></i> Address
                 </span>
-                {props.data ? props.data.address : 'loading'}
+                {props.data ? props.data.address : 'Amman, Jordan'}
               </p>
             </div>
             <div className='contact-item'>
@@ -110,7 +110,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-phone'></i> Phone
                 </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                {props.data ? props.data.phone : '+962-7866985201'}
               </p>
             </div>
             <div className='contact-item'>
@@ -118,7 +118,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                {props.data ? props.data.email : 'BackLog@company.com'}
               </p>
             </div>
           </div>
@@ -157,16 +157,9 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      {/* <div id='footer'>
-        <div className='container text-center'>
-          <p>
-            &copy; 2022{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              BackLog
-            </a>
-          </p>
-        </div>
-      </div> */}
+      "Amman, Jordan",
+      "phone": "+962-7866985201",
+      "email": "BackLog@company.com",
     </div>
   )
 }

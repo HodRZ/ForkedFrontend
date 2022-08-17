@@ -68,32 +68,32 @@
     {
       "icon": "fa fa-bed",
       "name": "Rent a Room",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Find a place to stay in the nicest corners of town. cozy private rooms for you and your family. you wont miss your home"
     },
     {
       "icon": "fa fa-globe",
       "name": "All The World",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "No matter where you are from, we got someone to help you navigate. our guides are bi-lingual and fluent in over 20 languages "
     },
     {
       "icon": "fa fa-map-marker",
       "name": "Explore The Area",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Find the hidden gems all over the map. down near the Dead Sea, up in Ajloun mountains, deep in Wadi Rum dessert, or the oasises of the east"
     },
     {
       "icon": "fa fa-suitcase",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Luggage storage",
+      "text": "Don't woory about carrying your lagguge around, we'll help you store it, organaize it, keep it safe, and get it to you wherever you are."
     },
     {
-      "icon": "fa fa-plane",
+      "icon": "fa fa-bus",
       "name": "Reception",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Our fleet is the top of line, the comfort of home on wheels, and our providers and staff are professional and friendly, the definition of luxury."
     },
     {
       "icon": "fa fa-car",
       "name": "Rent a Car",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Want to go fast? want to climb a mountain in a car? want to camp in the dessert? on road or off road, we got you covered."
     }
   ],
   "Testimonials": [

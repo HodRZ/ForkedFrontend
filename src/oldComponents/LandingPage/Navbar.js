@@ -45,13 +45,13 @@ function Navbar(props) {
                 </Link>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#features' className='page-scroll'>
                 <Link to='/profile' style={{ textDecoration: "none", color: 'black' }}>
                   Profile
                 </Link>
               </a>
-            </li>
+            </li> */}
 
             {
               isAuthenticated && (
