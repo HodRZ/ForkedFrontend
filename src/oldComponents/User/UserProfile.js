@@ -43,19 +43,21 @@ class UserProfile extends React.Component {
         <MDBContainer className="h-50">
           <MDBRow>
             <MDBCol md='8'>
-              <MDBCardImage src='https://www.pngkey.com/png/full/73-730477_first-name-profile-image-placeholder-png.png' className="h-25" alt="..." />
+              <MDBCardImage src='https://www.pngkey.com/png/full/73-730477_first-name-profile-image-placeholder-png.png' className="h-25" style={{ height: '25rem' }} alt="..." />
               <MDBRow>
                 <MDBCol md='6'>
-                  <MDBBtn color='dark'><Link to='service' style={{ textDecoration: "none", color: 'white' }}>Offer Service</Link></MDBBtn>
+                  <MDBBtn color='dark'><Link to='service' style={{ textDecoration: "none", color: 'black' }}>Offer Service</Link></MDBBtn>
                 </MDBCol>
                 <MDBCol md='6'>
-                  <MDBBtn color='dark'><Link to='blog' style={{ textDecoration: "none", color: 'white' }}>Write a Blog</Link></MDBBtn>
+                  <MDBBtn color='dark'><Link to='blog' style={{ textDecoration: "none", color: 'black' }}>Write a Blog</Link></MDBBtn>
                 </MDBCol>
               </MDBRow>
             </MDBCol>
-            <MDBCol md='4'>
-              <MDBCardTitle>Welcome {user.name} !</MDBCardTitle>
-            </MDBCol>
+            <MDBRow>
+              <MDBCol md='4'>
+                <MDBCardTitle style={{ marginTop: '15rem' }}>Welcome {user.name} !</MDBCardTitle>
+              </MDBCol>
+            </MDBRow>
           </MDBRow>
         </MDBContainer>
       </>

@@ -11,7 +11,6 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
-import { Outlet } from "react-router-dom";
 
 
 

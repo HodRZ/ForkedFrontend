@@ -33,24 +33,24 @@ export default function EditService() {
         fetchData();
     })
     return (
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem', margin: '10% 35%' }}>
             <Form onSubmit={updateService}>
-                <Card.Img variant="top" src={service?.image} />
+                <Card.Img variant="top" src={service?.image} style={{ height: '25rem' }} />
                 <Card.Body>
                     <Card.Title>
                         <Form.Group className="mb-3" controlId="title">
                             <Form.Label>Title</Form.Label>
-                            <Form.Control type="text" placeholder={service?.title} />
+                            <Form.Control type="text" defaultValue={service?.title} />
                         </Form.Group>
                     </Card.Title>
                     <Card.Text>
                         <Form.Group className="mb-3" controlId="description">
                             <Form.Label>Description</Form.Label>
-                            <Form.Control type="text" placeholder={service?.description} />
+                            <Form.Control type="text" defaultValue={service?.description} />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="price">
                             <Form.Label>Price</Form.Label>
-                            <Form.Control type="number" placeholder={service?.price} />
+                            <Form.Control type="number" defaultValue={service?.price} />
                         </Form.Group>
                     </Card.Text>
                     <Card.Text>
