@@ -9,7 +9,6 @@ import CarRental from './oldComponents/LandingPage/LoggedIN/mainComponents/Servi
 import RoomRental from './oldComponents/LandingPage/LoggedIN/mainComponents/Services/RoomRental'
 import TourGuide from './oldComponents/LandingPage/LoggedIN/mainComponents/Services/TourGuide'
 import Blogs from './oldComponents/Blogs'
-import About from './oldComponents/LandingPage/About'
 import UserProfile from './oldComponents/User/UserProfile';
 import BlogPost from './oldComponents/BlogPost';
 import CreateServices from './oldComponents/CreateServices';
