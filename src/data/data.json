@@ -150,6 +150,11 @@
       "job": "Front-End Developer"
     },
     {
+      "img": "https://ca.slack-edge.com/TNGRRLUMA-U03LLSD66QM-55d698992505-512",
+      "name": "Ahmed Abu-Ali",
+      "job": "Front-End Developer"
+    },
+    {
       "img": "https://ca.slack-edge.com/TNGRRLUMA-U03MDGVER40-59d28dff618d-512",
       "name": "Eyad Mansour",
       "job": "Back-End Developer"
@@ -167,24 +172,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-globe",
+      "title": "Explore",
+      "text": "Search for special places and hidden gems in Jordan"
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum", 
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-car",
+      "title": "Rent A Car",
+      "text": "Need a ride? Don't worry"
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-home",
+      "title": "Find a Place to Stay",
+      "text": "Store your luggage, rest, and prepare for your adventure"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-male",
+      "title": "Find a Guide to Help",
+      "text": "Looking for a special trip? someone to show you around? we got you"
     }
   ]
 }

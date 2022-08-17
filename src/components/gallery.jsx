@@ -7,8 +7,7 @@ export const Gallery = (props) => {
         <div className='section-title'>
           <h2>Gallery</h2>
           <p>
-          Jordan can be regarded as a typically Arab country 
-          for its people are very warm, friendly and hospitable.
+            Jordan! where the dessert meet the sea, as low as the Dead Sea, as high as Umm ad Dami
           </p>
         </div>
         <div className='row'>
