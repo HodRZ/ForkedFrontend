@@ -81,11 +81,11 @@ class Citycomponent extends Component {
 
 				<div
 					className='  d-flex align-items-center'
-					style={{ height: 'auto', minHeight: '25rem' }}
+					style={{ height: 'auto', minHeight: '25rem' ,width:'80%', margin:'auto' }}
 				>
-
+					<h1>Search For your faviort City</h1>
 					<MDBContainer style={{ width: '100%' }} >
-						<h1>Search For your faviort City</h1>
+						
 						<MDBRow>
 							<MDBCol >
 								<SearchForm display={this.displayLocation} />
@@ -95,19 +95,19 @@ class Citycomponent extends Component {
 						{this.state.showData &&
 							<>
 								<MDBRow  >
-									<MDBCard style={{ width: '60%', marginTop: '4vh', padding: "10px" }} background='warning' >
+									<MDBCard style={{ width: '50%', marginTop: '4vh', padding: "10px", backgroundColor:'orange' }} background='warning' >
 										<MDBRow  >
-											<MDBCol md='6' style={{ marginLeft: '4vh' }}>
+											<MDBCol md='9' style={{ marginLeft: '25vh' }}>
 												<Map source={this.state.imgSrc} style={{ marginTop: '2vh' }} />
 											</MDBCol>
 											<MDBCol md='5'>
 												<MDBCardBody>
-													<MDBCardTitle color='white' style={{ color: 'white', marginTop: '8vh' }}>
-														<h2 style={{ display: 'inline-block' }}>{this.state.cityName} city map</h2>
+													<MDBCardTitle style={{ color: 'white', marginTop: '8vh' }}>
+														<h2 style={{ display: 'inline-block',color: 'white' }}>{this.state.cityName} city map</h2>
 														.
 														Thanks For searching with our tool We thought that you might want to see some pics of the city and why not seeing the weather too
 													</MDBCardTitle>
-													<MDBCardText color='white' style={{ fontWeight: 'bold', color: 'white' }}>
+													<MDBCardText  style={{ fontWeight: 'bold', color: 'white' }}>
 														<small >Last updated 3 mins ago</small>
 													</MDBCardText>
 												</MDBCardBody>
@@ -115,12 +115,12 @@ class Citycomponent extends Component {
 										</MDBRow>
 									</MDBCard>
 
-									<MDBCol md='3' style={{ marginTop: '4vh' }} >
+									<MDBCol md='3' style={{ marginTop: '-100vh' ,  marginLeft:'120vh' }} >
 										<Weather weatherData={this.state.weather} />
 									</MDBCol>
 								</MDBRow>
 								<MDBRow>
-									<MDBCard style={{ marginLeft: '70vh', width: '60%', marginTop: '4vh', padding: "10px", float: 'right' }} background='warning' >
+									<MDBCard style={{ marginLeft: '70vh', width: '60%', marginTop: '4vh', padding: "10px", float: 'right', backgroundColor:'orange'  }} background='warning' >
 										<MDBRow  >
 											<MDBCol md='6' style={{ marginLeft: '50vh', float: 'right' }}>
 
@@ -129,22 +129,22 @@ class Citycomponent extends Component {
 									</MDBCard>
 								</MDBRow>
 
-								<MDBCard style={{ width: '60%', margin: "auto", marginTop: '4vh', padding: "10px" }} background='warning' >
+								<MDBCard style={{ width: '60%', margin: "auto", marginTop: '0vh', padding: "10px" ,  backgroundColor:'orange' }} background='warning' >
 									<MDBRow  >
-										<MDBCol md='6' style={{ marginLeft: '4vh', borderRadius: '10px' }}>
-											<Unsplashimg style={{ marginLeft: '10vh', borderRadius: '10px' }} sourceimg={this.state.imgSrcUns} />
+										<MDBCol md='6' style={{ marginLeft: '4vh', borderRadius: '10px' , marginTop: '-50vh',color: 'white'  }}>
+											<Unsplashimg style={{ marginLeft: '10vh', borderRadius: '10px', color:'white' }} sourceimg={this.state.imgSrcUns} />
 										</MDBCol>
 										<MDBCol md='5'>
 											<MDBCardBody>
-												<MDBCardTitle color='white' style={{ color: 'white' }}>
-													<h2 style={{ display: 'inline-block' }}> Some {this.state.cityName}'s  Views </h2>
-													is one of the most pretty cities in the area with its amaizing views
+												<MDBCardTitle color='white' style={{ color: 'white'  , marginTop:'-40vh' , marginLeft:'-40vh'}}>
+													<h2 style={{ display: 'inline-block', color: 'white'  }}> Some {this.state.cityName}'s  Views </h2>
+													<p style={{ display: 'inline-block', color: 'white'  }}>is one of the most pretty cities in the area with its amaizing views</p>
 												</MDBCardTitle>
 											</MDBCardBody>
 										</MDBCol>
 									</MDBRow>
 								</MDBCard>
-								<MDBRow style={{ marginTop: '4vh', padding: "10px" }}  >
+								<MDBRow style={{ marginTop: '4vh', padding: "10px" , width:'100%' , }} background='warning' >
 									<UseServices />
 								</MDBRow>
 							</>}
