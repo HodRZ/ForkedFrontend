@@ -39,8 +39,6 @@ root.render(
           <Route path='profile' element={<UserProfile />} />
           <Route path='profile/blog' element={<BlogPost />} />
           <Route path='profile/service' element={<CreateServices />} />
-
-          <Route path='about' element={<About />} />
           <Route path='blog' element={<Blogs />} />
           <Route path='blog/:id' element={<EditBlog />} />
           <Route path='service/:id' element={<EditService />} />

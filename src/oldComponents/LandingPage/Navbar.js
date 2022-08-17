@@ -47,13 +47,6 @@ function Navbar(props) {
             </li>
             <li>
               <a href='#features' className='page-scroll'>
-                <Link to='/about' style={{ textDecoration: "none", color: 'black' }}>
-                  About
-                </Link>
-              </a>
-            </li>
-            <li>
-              <a href='#features' className='page-scroll'>
                 <Link to='/profile' style={{ textDecoration: "none", color: 'black' }}>
                   Profile
                 </Link>
