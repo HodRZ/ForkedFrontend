@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom"
+import { useAuth0 } from '@auth0/auth0-react';
+
 
 export const Header = (props) => {
+  const {
+    isAuthenticated,
+    loginWithRedirect } = useAuth0();
   return (
     <header id='header'>
       <div className='intro'>
@@ -13,6 +18,10 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
+
+                {' '}
+                {!isAuthenticated && (
+                  <button className='btn btn-custom btn-lg' onClick={loginWithRedirect}>Join US</button>)}
                 <Link to='/city'>
                   <a
 

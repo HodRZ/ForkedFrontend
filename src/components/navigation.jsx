@@ -1,8 +1,14 @@
 // import { Navbar, NavItem } from "react-bootstrap";
-
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { useAuth0 } from '@auth0/auth0-react';
+
+
+
 export const Navigation = (props) => {
+  const {
+    isAuthenticated,
+    logout } = useAuth0();
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -59,6 +65,13 @@ export const Navigation = (props) => {
                 Contact
               </a>
             </li>
+            {
+              isAuthenticated && (
+                <li>
+                  <a onClick={() => {
+                    logout({ returnTo: window.location.origin });
+                  }}>Log out</a></li>)
+            }
 
           </ul>
         </div>
