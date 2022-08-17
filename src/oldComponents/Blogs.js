@@ -26,7 +26,7 @@ class Blogs extends Component {
         return (
             <>
                 <Header />
-                <section className="cards-primary">
+                <section className="cards-primary" style={{ gap: '2rem'}}>
                     <div className="cards-header">
                         <h1>
                             Blog

@@ -78,27 +78,29 @@ class Citycomponent extends Component {
 		return (
 			<>
 				<Header />
-
-				<div
-					className='  d-flex align-items-center'
-					style={{ height: 'auto', minHeight: '25rem' ,width:'80%', margin:'auto' }}
-				>
-					<h1>Search For your faviort City</h1>
-					<MDBContainer style={{ width: '100%' }} >
 						
-						<MDBRow>
+						<MDBRow style={{ margin:'auto', marginTop: '-50vh', width:'50%'}}>
 							<MDBCol >
+								<h1  style={{ color : 'white'}} >Search For your faviort City</h1>
 								<SearchForm display={this.displayLocation} />
 							</MDBCol>
 						</MDBRow>
 
+				<div
+					className='  d-flex align-items-center'
+					style={{ height: 'auto', minHeight: '25rem' ,width:'80%', margin:'auto' ,  marginTop: '35vh' }}
+				>
+
+					<MDBContainer style={{ width: '100%' }} >
+		
+
 						{this.state.showData &&
 							<>
 								<MDBRow  >
-									<MDBCard style={{ width: '50%', marginTop: '4vh', padding: "10px", backgroundColor:'orange' }} background='warning' >
+									<MDBCard style={{ width: '50%', marginTop: '4vh', padding: "10px" , paddingTop: "25px", backgroundColor:'orange' }} background='warning' >
 										<MDBRow  >
-											<MDBCol md='9' style={{ marginLeft: '25vh' }}>
-												<Map source={this.state.imgSrc} style={{ marginTop: '2vh' }} />
+											<MDBCol md='9' style={{ marginLeft: '15vh' }}>
+												<Map source={this.state.imgSrc} style={{ marginTop: '20vh' }} />
 											</MDBCol>
 											<MDBCol md='5'>
 												<MDBCardBody>
@@ -120,7 +122,7 @@ class Citycomponent extends Component {
 									</MDBCol>
 								</MDBRow>
 								<MDBRow>
-									<MDBCard style={{ marginLeft: '70vh', width: '60%', marginTop: '4vh', padding: "10px", float: 'right', backgroundColor:'orange'  }} background='warning' >
+									<MDBCard style={{ marginLeft: '70vh', width: '60%', marginTop: '7vh', padding: "10px" , float: 'right', backgroundColor:'orange'  }} background='warning' >
 										<MDBRow  >
 											<MDBCol md='6' style={{ marginLeft: '50vh', float: 'right' }}>
 
@@ -129,7 +131,7 @@ class Citycomponent extends Component {
 									</MDBCard>
 								</MDBRow>
 
-								<MDBCard style={{ width: '60%', margin: "auto", marginTop: '0vh', padding: "10px" ,  backgroundColor:'orange' }} background='warning' >
+								<MDBCard style={{ width: '60%', margin: "auto", marginTop: '0vh', padding: "20px" , paddingBottom : '50px' ,  backgroundColor:'orange' }} background='warning' >
 									<MDBRow  >
 										<MDBCol md='6' style={{ marginLeft: '4vh', borderRadius: '10px' , marginTop: '-50vh',color: 'white'  }}>
 											<Unsplashimg style={{ marginLeft: '10vh', borderRadius: '10px', color:'white' }} sourceimg={this.state.imgSrcUns} />

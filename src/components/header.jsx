@@ -19,9 +19,9 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
 
-                {' '}
+                {'  '}
                 {!isAuthenticated && (
-                  <button className='btn btn-custom btn-lg' onClick={loginWithRedirect}>Join US</button>)}
+                  <button className='btn btn-custom btn-lg' style={{marginRight:'5vh'}} onClick={loginWithRedirect}>Join US</button>)}
                 <Link to='/city'>
                   <a
 
@@ -29,7 +29,7 @@ export const Header = (props) => {
                   >
 
                     Yalla Exeplore !
-                  </a></Link>{' '}
+                  </a></Link>{'   '}
               </div>
             </div>
           </div>
