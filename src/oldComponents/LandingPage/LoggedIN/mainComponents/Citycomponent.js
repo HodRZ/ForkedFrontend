@@ -7,6 +7,7 @@ import { Component } from 'react';
 import axios from 'axios';
 // import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 // import Header from '../../loggedOut/Header';
+// import Footer from '../../loggedOut/Footer';
 // import LogoutButton from '../../../user/LogoutButton';
 import { MDBCol, MDBContainer } from 'mdb-react-ui-kit';
 // import Profile from './../../../user/Profile';
@@ -81,7 +82,7 @@ class Citycomponent extends Component {
 						
 						<MDBRow style={{ margin:'auto', marginTop: '-50vh', width:'50%'}}>
 							<MDBCol >
-								<h1  style={{ color : 'white'}} >Search For your faviort City</h1>
+								<h1  style={{ color : 'white' , marginLeft:'-2vh'}} >Exlpore cities now !</h1>
 								<SearchForm display={this.displayLocation} />
 							</MDBCol>
 						</MDBRow>
@@ -106,7 +107,7 @@ class Citycomponent extends Component {
 												<MDBCardBody>
 													<MDBCardTitle style={{ color: 'white', marginTop: '8vh' }}>
 														<h2 style={{ display: 'inline-block',color: 'white' }}>{this.state.cityName} city map</h2>
-														.
+														
 														Thanks For searching with our tool We thought that you might want to see some pics of the city and why not seeing the weather too
 													</MDBCardTitle>
 													<MDBCardText  style={{ fontWeight: 'bold', color: 'white' }}>
@@ -117,7 +118,7 @@ class Citycomponent extends Component {
 										</MDBRow>
 									</MDBCard>
 
-									<MDBCol md='3' style={{ marginTop: '-100vh' ,  marginLeft:'120vh' }} >
+									<MDBCol md='3' style={{ marginTop: '-100vh' ,  marginLeft:'120vh'  , color :'orange' , fontWeight:'bold' , border:'2px solid orange'}} >
 										<Weather weatherData={this.state.weather} />
 									</MDBCol>
 								</MDBRow>
