@@ -1,0 +1,48 @@
+.btn-primary-sm {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #4f46e5;
+    border-radius: 0.375rem;
+    color: #FFF;
+    transition-duration: 150ms;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.btn-primary-sm:hover {
+    background-color: #4338ca;
+}
+
+.website-url-input {
+    max-width: 28rem;
+    padding: 0px 1rem 0px 1rem;
+    margin: 3rem auto 0px auto;
+}
+
+.website-url-input label {
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #6b7280;
+}
+
+.website-url-input .input-container {
+    display: flex;
+    align-items: center;
+    color: #9ca3af;
+    border: solid 1px #e5e7eb;
+    border-radius: 0.375rem;
+}
+
+.website-url-input .input-container .website-protocol {
+    padding: 0.625rem 0.75rem 0.625rem 0.75rem;
+    background-color: #f9fafb;
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+    border-right: solid 1px #e5e7eb;
+}
+
+.website-url-input .input-container .input {
+    width: 100%;
+    padding: 0.625rem;
+    margin-left: 0.5rem;
+}

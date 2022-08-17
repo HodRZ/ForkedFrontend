@@ -39,13 +39,13 @@ export default function EditBlog() {
                     <Card.Title>
                         <Form.Group className="mb-3" controlId="title">
                             <Form.Label>Title</Form.Label>
-                            <Form.Control type="text" placeholder={blog?.title} />
+                            <Form.Control type="text" defaultValue={blog?.title} />
                         </Form.Group>
                     </Card.Title>
                     <Card.Text>
                         <Form.Group className="mb-3" controlId="content">
                             <Form.Label>Content</Form.Label>
-                            <Form.Control type="text" placeholder={blog?.content} />
+                            <Form.Control type="text" defaultValue={blog?.content} />
                         </Form.Group>
                     </Card.Text>
                     <Card.Text>

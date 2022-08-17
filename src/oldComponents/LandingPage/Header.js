@@ -21,7 +21,7 @@ export default function Header() {
             <header>
                 <div
                     className='p-5 text-center bg-image'
-                    style={{ backgroundImage: "url('https://universes.art/fileadmin/_migrated/gridelement_uploads/00-1-IMG_0972-2000-750-2_01.jpg')", height: '75rem' }}
+                    style={{ backgroundImage: "url('https://universes.art/fileadmin/_migrated/gridelement_uploads/00-1-IMG_0972-2000-750-2_01.jpg')", height: '60rem' }}
                 >
                     <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
                         <Navbar />
