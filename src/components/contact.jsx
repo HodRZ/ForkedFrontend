@@ -157,9 +157,6 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      "Amman, Jordan",
-      "phone": "+962-7866985201",
-      "email": "BackLog@company.com",
     </div>
   )
 }
